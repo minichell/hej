@@ -9,7 +9,7 @@ public class hemuppgift38 {
 		  System.out.println("skriv in ett heltal?");
 	        int a = input.nextInt();
 	        int min = a; 
-	        int max =a;
+	        int max = a;
 	        System.out.println("skriv in ett till heltal?");
 	        int b = input.nextInt();
 	        if (b>max) {
@@ -22,79 +22,99 @@ public class hemuppgift38 {
 	        
 	        System.out.println("skriv in ett till heltal?");
 	        int c = input.nextInt();
-	        int mini = c;
-	        int mixi = c;
+  if (c>max) {
+	        	
+	        	max = c;
+	        }
+	        if(c<min) {
+	        	min = c;
+	        }        
 	        
 	        System.out.println("skriv in ett till heltal?");
 	        int d = input.nextInt();
-	        
-	        if (d>mixi) {
+	        if(d>max) {
 	        	
-	        	mixi = d;
+	        	max = d;
 	        }
-	        if(d<mini) {
-	        	mini = d;
+	        if(d<min) {
+	        	min = d;
 	        }
 	              
 	        System.out.println("skriv in ett till heltal?");
 	        int e = input.nextInt();
-	        int lul = e;
-	        int lil = e;
+  if (e>max) {
+	        	
+	        	max = e;
+	        }
+	        if(e<min) {
+	        	min =e;
+	        }        
 	        
 	        System.out.println("skriv in ett till heltal?");
 	        int f = input.nextInt();
 	        
 	        
 	        
-           if (f>lil) {
+           if (f>max) {
 	        	
-	        	lil = f;
+	        	max= f;
 	        }
-	        if(f<lul) {
-	             lil = f;
+	        if(f<min) {
+	             min = f;
 	        }
 	        
-	        
+	
 	        
 	        System.out.println("skriv in ett till heltal?");
 	        int g = input.nextInt();
-	        int si = g;
-	        int is = g;
+  if (g>max) {
+	        	
+	        	max = g;
+	        }
+	        if(g<min) {
+	        	min = g;
+	        }        
 	        
 	        System.out.println("skriv in ett till heltal?");
 	        int h = input.nextInt();
 	        
 	        
-	           if (h>is) {
+	           if(h>max) {
 		        	
-		        	is = h;
+		        	max = h;
 		        }
-		        if(h<si) {
-		             is = h;
+		        if(h<min) {
+		             min = h;
 		        }
 	        
 	     
 	        System.out.println("skriv in ett till heltal?");
 	        int i = input.nextInt();
-	        int ni = i;
-	        int in = i;
-	        		
+  if (i>max) {
+	        	
+	        	max = i;
+	        }
+	        if(i<min) {
+	        	min = i;
+	        }        
 	        
 	        System.out.println("skriv in ett till heltal?");
 	        int j = input.nextInt();
 	        
 
-	           if (j>in) {
+	           if(j>max) {
 		        	
-		        	in = j;
+		        	max = j;
 		        }
-		        if(j<ni) {
-		             in = j;
+		        if(j<min) {
+		             min = j;
 		        }
 	        
-	
-	
-	
+		        System.out.println("maxsnummer = " + max);
+
+		        System.out.println("minstanummer = " + min);
+		        System.out.println("medelvärde: " + ((a+b+c+d+e+f+g+h+i+j)/10.f));
+		        
 	}
 	
 	
